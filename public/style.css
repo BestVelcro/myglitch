@@ -1,0 +1,41 @@
+
+      body {
+        background-color: #00F6FF;
+      }
+      div {
+        background-color: #91b8c9;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        width: 500px;
+        text-align: center;
+      }
+
+      button {
+        border-radius: 5px;
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+        background-color: blue;
+        border-color: #00009E;
+        color: white;
+      }
+      input {
+        border-radius: 5px;
+        width: 600px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: #7CFAFF;
+        border-color: #00009E;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+  
